@@ -1,0 +1,136 @@
+Understanding python design patterns:
+
+Design patterns:
+    -Well-known solutions to recurring problems
+    -Widely accepted by the software development community
+
+Motivation:
+    -Systematic reuse of best design ideas ---> lower cost and higher quality
+
+Characteristics:
+    -Language neutral
+    -Dynamic
+    -Incomplete by design to promote customization
+
+ Design pattern types:
+    -Creational
+    -Structural
+    -Behavioral
+
+ Creational patterns:
+    -Use:
+        --Create objects systematically
+
+    -Benefits:
+        --Flexibility
+
+ Structural patterns:
+    -Use:
+        --Establish relationships between software components
+        --Accomplish both functional and non-functional goals
+
+    -Different goals --> different structures
+
+ Behavioral patterns:
+    -Use:
+        --Object interactions
+        --Accomplish both functional and non-functional goals
+    -Focus --> protocols
+
+Creational      | Structural    | Behavioral
+Polymorphism    | Inheritance   | Methods & signatures
+
+################################################################
+
+Object-Oriented Programming (OOP)
+
+    ** Design patterns requires the OOP **
+
+    -Core concepts
+        --Objects
+            ( Represent entities in both problem and solution domains )
+            -------------------------
+            |                       |
+            |       Environment     |
+            |                       |
+            |      ------------     |
+            |     |            |    |
+            |     | Software <-|----|-------- Components
+            |     |            |    |   
+            |      ------------     |   
+            |                     <-|---------- Entities interacting with the software
+            -------------------------
+            ---Example
+                ----Conference registration
+                    -----Participant        --> problem domain
+                    -----Registration form  --> solution domain
+        --Classes
+            ( Templates to create objects to avoid recreating them each time )
+            
+            ---Attributes:
+                ----Represents properties of an entity
+                ----Captures the state of the entity
+            
+            ---Methods:
+                ----Represents behaviors
+
+    -Inheritance:
+        ( Establishes a relationship between two classes and child )
+
+        --Child class:
+            ---Keeps the attributes and methods of its parent
+            ---Adds new attributes or methods of its own
+            ---Overrides then existing methods of its parent
+        
+    -Polymorphism:
+        ( Relies on inheritance )
+        ( Allows child classes to be instantiated and treated as the same type as their parent )
+        ( Enables a parent class to be manifested into any of its child classes )
+
+    -Pattern context:
+        --Participants
+            ---Classes involved to form a design pattern
+            ---Roles
+
+        --Quality attributes
+            ---Nonfunctional requirements:
+                ----Usability
+                ----Modifiability
+                ----Reliability
+                ----Performance
+                ----And more...
+            ---Effect on the entire software:
+                ----Architectural solutions
+        --Forces
+            ---Various factors or trade-offs to consider
+                ----Manifested in quality attributes
+                ----Unintended consequences
+                ( Consequences )
+                * Worse performance
+                * Decision makers should consider consequences
+    
+    -Pattern Language:
+        --Name
+            ---Capture the gist
+            ---Vocabulary
+            ---Meaningful and memorable
+        
+        --Context
+            ---Scenario
+            ---Insights on when and where
+
+        --Problem
+            ( Describes a design challenge a pattern is addressing )
+        
+        --Solution
+            ---Specifies a pattern
+            ---Structure --> relationships
+            ---Behavior --> interactions
+        
+        --Related patterns
+            ---Lists other patterns
+            ---Used together
+            ---Similar but different
+            
+
+
